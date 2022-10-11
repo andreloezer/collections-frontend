@@ -1,0 +1,94 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    /* margin: 1rem 0; */
+}
+
+.input span {
+    font-size: 0.8rem;
+    user-select: none;
+}
+
+.input-text,
+.input-number,
+.textarea,
+.select {
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+.input-text:focus-visible,
+.input-number:focus-visible,
+.textarea:focus-visible,
+.select:focus-visible {
+    outline: none;
+}
+
+.form-control input[type=checkbox] {
+    width: 1rem;
+    height: 1rem;
+    margin: auto;
+    cursor: pointer;
+}
+
+.textarea {
+    resize: none;
+    font-family: inherit;
+}
+
+.form-control--inline {
+    /* align-items: center; */
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    /* margin-top: 1.5rem; */
+}
+
+.form-control--inline span {
+    position: absolute;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.form-control span {
+    font-size: 0.8rem;
+    user-select: none;
+}
+
+
+.option {
+    color: var(--darkest-color);
+}
+
+.default-option,
+.option[selected] {
+    color: var(--dark-color);
+}
+
+.form-control--invalid span {
+    color: var(--alert-color);
+}
+
+.input-text,
+.input-number,
+.textarea,
+.input-text:focus-visible,
+.input-number:focus-visible,
+.textarea:focus-visible {
+    background-color: var(--brightest-color);
+    color: var(--darkest-color);
+}
+
+.form-control--invalid .input-text,
+.form-control--invalid .input-number,
+.form-control--invalid .textarea {
+    border-color: var(--alert-color);
+    background-color: var(--alert-background-color);
+}

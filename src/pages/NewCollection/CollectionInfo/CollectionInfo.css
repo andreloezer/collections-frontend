@@ -1,0 +1,44 @@
+.collection-info {
+    /* margin-bottom: 4rem; */
+}
+
+.collection-info__publicity {
+    /* margin: auto; */
+    text-align: center;
+}
+
+.collection-info__description p {
+    font-size: 1.2rem;
+}
+
+.collection-info__name p {
+    font-size: 2rem;
+    /* text-align: center; */
+}
+
+.collection-info__flex {
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+}
+
+.collection-info__flex h2,
+.collection-info__flex button {
+    margin: 0;
+}
+
+.collection-info__flex button {
+    margin-left: 0.5rem;
+}
+
+.collection-info__no-info {
+    text-align: center;
+}
+
+.collection-info__no-info p {
+    font-size: 1.5rem;
+}
+
+.collection-info__no-info span {
+    font-size: 1.2rem;
+}

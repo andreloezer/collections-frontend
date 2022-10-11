@@ -1,0 +1,42 @@
+.collection-toolbar-btn {
+    background-color: var(--brightest-color);
+    color: var(--darkest-color);
+    transition: ease var(--animation-time) all;
+    font-size: 2rem;
+    margin: 0.2rem;
+    padding: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    
+    /* width: 100%;
+    padding-top: 100%;
+    position: relative; */
+}
+
+.collection-toolbar-btn:hover {
+    color: var(--brightest-color);
+    background-color: var(--darkest-color);
+    /* background-color: var(--highlight-color); */
+}
+
+.collection-toolbar-btn.selected:hover {
+    color: var(--highlight-color);
+}
+
+.collection-toolbar-btn svg {
+    max-width: 2rem;
+    max-height: 2rem;
+    /* position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+}
+
+.collection-toolbar-btn.selected {
+    color: var(--brightest-color);
+    background-color: var(--darkest-color);
+}

@@ -1,0 +1,23 @@
+.collection-info-card {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 2rem 0;
+}
+
+.collection-info-card div {
+    display: flex;
+}
+
+.collection-info-card span {
+    font-size: 0.8rem;
+}
+
+.collection-info-card p {
+    margin: 0.5rem 0;
+    /* font-size: 1.6rem; */
+}
+
+.collection-info-card button {
+    margin: inherit;
+    margin-left: 0.5rem;
+}

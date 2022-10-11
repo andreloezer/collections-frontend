@@ -1,0 +1,38 @@
+.backdrop {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: var(--grey);
+    
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+/*
+    CSSTransition
+*/
+
+.backdrop-enter {
+    opacity: 0;
+}
+
+.backdrop-enter-active,
+.backdrop-enter-done {
+    transition: all var(--animation-time);
+    opacity: 0.6;
+}
+
+.backdrop-exit {
+    opacity: 0.6;
+}
+
+.backdrop-exit-active,
+.backdrop-exit-done {
+    transition: all var(--animation-time);
+    opacity: 0;
+}

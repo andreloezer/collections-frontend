@@ -1,0 +1,31 @@
+.collections-page {
+    text-align: center;
+}
+
+.collections-page h1 {
+    font-size: 4rem;
+}
+
+.no-collections {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.no-collections p {
+    margin-bottom: 0.5rem;
+}
+
+.no-collections span {
+    font-size: 1.2rem;
+}
+
+.no-collections .plus-btn {
+    margin-top: 5rem;
+    font-size: 4rem;
+}
+
+/* .no-collections a {
+    display: block;
+    margin-top: 5rem;
+    font-size: 4rem;
+} */

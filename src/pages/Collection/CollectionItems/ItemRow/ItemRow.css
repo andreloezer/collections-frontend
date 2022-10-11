@@ -1,0 +1,37 @@
+.item-row {
+    list-style: none;
+    font-size: 1rem;
+    height: 3.5rem;
+}
+
+.table .item-row {
+    display: table-row;
+}
+
+.item-row:nth-child(odd) {
+    background-color: var(--bright-color);
+    color: var(--darkest-color);
+}
+
+.item-row div {
+    padding: 1rem 2rem;
+    vertical-align: middle;
+}
+
+.table .item-row div {
+    display: table-cell;
+}
+
+.table .item-row .item-options {
+    padding: 0;
+}
+
+.table .item-row .item-options button {
+    display: table-cell;
+    margin: 1rem;
+}
+
+.item-row .col-empty {
+    font-size: 0.9rem;
+    color: var(--grey);
+}

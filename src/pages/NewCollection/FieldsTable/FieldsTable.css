@@ -1,0 +1,46 @@
+.collection-fields table {
+    width: 100%;
+    text-align: center;
+}
+
+.collection-fields h2,
+.collection-fields p,
+.collection-fields span {
+    text-align: center;
+}
+
+.collection-fields p {
+    font-size: 1.5rem;
+}
+
+.collection-fields span {
+    font-size: 1.2rem;
+    display: block;
+}
+
+.fields-table {
+    background-color: inherit;
+    border-collapse: collapse;
+    background-color: var(--darkest-color);
+    color: var(--brightest-color);
+}
+
+.fields-table thead {
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+.fields-table thead tr {
+    background-color: var(--brightest-color);
+    color: var(--darkest-color);
+}
+
+.fields-table tbody tr:nth-child(even) {
+    background-color: var(--brightest-color);
+    color: var(--darkest-color);
+}
+
+/* .collection-fields-form .plus-btn {
+    margin-top: 3rem;
+    font-size: 3rem;
+} */

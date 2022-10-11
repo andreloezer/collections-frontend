@@ -1,0 +1,46 @@
+.button {
+    cursor: pointer;
+}
+
+.button-like {
+    background-color: var(--brightest-color);
+    color: var(--darkest-color);
+    border: 2px solid var(--brightest-color);
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.button-like:hover {
+    color: var(--brightest-color);
+    background-color: var(--darkest-color);
+}
+
+.button--inverse {
+    background-color: var(--darkest-color);
+    color: var(--brightest-color);
+    border: 2px solid var(--brightest-color);
+}
+
+.button--inverse:hover {
+    color: var(--darkest-color);
+    background-color: var(--brightest-color);
+}
+
+.button--danger {
+    background-color: var(--alert-color);
+}
+
+.button--disable {
+    color: var(--grey);
+    cursor: not-allowed;
+}
+
+.button--disable:hover {
+    background-color: var(--brightest-color);
+    color: var(--grey);
+}
+
+.plus-btn {
+    margin-top: 3rem;
+    font-size: 3rem;
+}

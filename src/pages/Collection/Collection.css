@@ -1,0 +1,7 @@
+.collection section {
+    max-width: var(--container);
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.no-items-alert {}

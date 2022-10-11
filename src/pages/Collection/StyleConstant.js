@@ -1,0 +1,2 @@
+export const DISPLAY_ITEMS_AS_TABLE = 'TABLE';
+export const DISPLAY_ITEMS_AS_GRID = 'GRID';

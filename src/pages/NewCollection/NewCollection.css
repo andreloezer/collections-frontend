@@ -1,0 +1,28 @@
+.new-collection-page {
+    max-width: var(--container);
+    margin: auto;
+}
+
+.new-collection-form {
+    max-width: 45rem;
+    background-color: var(--darkest-color);
+    color: var(--brightest-color);
+    border-radius: 2rem;
+    padding: 5rem;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.new-collection-form h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+hr {
+    margin: 3rem 0;
+}
+
+.new-collection-page .input {
+    margin-top: 1.5rem;
+}

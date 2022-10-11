@@ -1,0 +1,12 @@
+.brand {
+    margin: 0.5rem;
+}
+
+.brand a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.brand img {
+    margin-right: 0.5rem;
+}

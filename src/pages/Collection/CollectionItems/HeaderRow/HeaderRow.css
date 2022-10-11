@@ -1,0 +1,26 @@
+.header-row {
+    list-style: none;
+    font-size: 1.2rem;
+    color: var(--brightest-color);
+    background-color: var(--darkest-color);
+    height: 4rem;
+    font-weight: bold;
+    
+}
+
+.header-row div {
+    padding: 1rem 2rem;
+    vertical-align: middle;
+}
+
+.table .header-row {
+    display: table-header-group;
+}
+
+.table .header-row div {
+    display: table-cell;
+}
+
+.table .header-row div.colspan {
+    display: block;
+}

@@ -1,0 +1,41 @@
+.collection-article {
+    width: 45rem;
+    box-sizing: border-box;
+    padding: 1.5rem 2.5rem 2.5rem 2.5rem;
+    display: block;
+    /* border: 1px solid var(--darkest-color); */
+    
+    border: 3px solid var(--darkest-color);
+    background-color: var(--darkest-color);
+    color: var(--brightest-color);
+    border-radius: 2rem;
+    margin: auto;
+    margin-bottom: 5rem;
+    transition: ease var(--animation-time) all;
+}
+
+.collection-article:hover {
+    transform: scale(1.03);
+    /* color: var(--highlight-color); */
+    border: 3px solid var(--darkest-color);
+    color: var(--darkest-color);
+    background-color: var(--brightest-color);
+}
+
+.collection-article h3 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.collection-article p {
+    text-align: start;
+}
+
+.collection-article div {
+    text-align: start;
+}
+
+.collection-article div span {
+    text-align: start;
+    margin-right: 2rem;
+}

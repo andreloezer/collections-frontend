@@ -1,0 +1,12 @@
+.field-row {
+    height: 2rem;
+}
+
+.field-row td {
+    align-items: center;
+}
+
+.field-row .icon {
+    font-size: 1rem;
+    padding: 0.25rem;
+}

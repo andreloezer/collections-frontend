@@ -1,0 +1,18 @@
+.collection-toolbar {
+    width: 100%;
+    /* height: 4rem; */
+    padding: 0.2rem 0;
+    background-color: var(--darkest-color);
+    color: var(--brightest-color);
+    /* margin-top: 4rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.collection-toolbar ul {
+    width: var(--container);
+    margin: auto;
+    display: flex;
+}

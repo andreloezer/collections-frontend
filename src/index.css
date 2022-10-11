@@ -1,13 +1,66 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+:root {
+    /* Color scheme */
+    --darkest-color: #101010;
+    --dark-color: #303030;
+    --bright-color: #e0e0e0;
+    --highlight-color: #d0d0ff;
+    --brightest-color: #f1f1f1;
+    --grey: #aaa;
+    --alert-color: #d64242;
+    --alert-background-color: #da9797;
+
+    /* Sizes */
+    --header-height-top: 4rem;
+    --header-height-scroll: 3rem;
+    --header-height: var(--header-height-top);
+    --footer-height: 10rem;
+    --container: 50rem;
+
+    --animation-time: 0.2s;
+
+    --footer-height: 8rem;
+}
+
+.animated {
+    transition: all 0.2s ease;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#root {
+    color: var(--darkest-color);
+    background-color: var(--brightest-color);
+}
+
+main {
+    box-sizing: border-box;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+    min-height: calc(100vh - var(--footer-height) - var(--header-height));
+}
+
+h1 {
+    text-align: center;
 }

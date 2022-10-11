@@ -1,0 +1,11 @@
+.auth {
+    max-width: 35rem;
+    margin: auto;
+}
+
+.auth h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}

@@ -1,0 +1,13 @@
+.header-main {
+    background-color: var(--bright-color);
+    height: 4rem;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.header-retreat {
+    height: 3rem;
+}

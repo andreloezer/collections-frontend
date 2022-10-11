@@ -1,0 +1,13 @@
+.items-list {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.items-list ul {
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 4rem); */
+
+    display: table;
+    width: 100%;
+}

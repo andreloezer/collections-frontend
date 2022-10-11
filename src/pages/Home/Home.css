@@ -1,0 +1,23 @@
+.home {
+    text-align: center;
+    padding: 5rem;
+}
+
+.home h1 {
+    margin: 5rem;
+    font-size: 4rem;
+}
+
+.home .button-like {
+    background-color: var(--darkest-color);
+    color: var(--brightest-color);
+    width: fit-content;
+    border: 2px solid transparent;
+    margin: 3rem auto;
+}
+
+.home .button-like:hover {
+    background-color: var(--brightest-color);
+    color: var(--darkest-color);
+    border: 2px solid var(--darkest-color);
+}
